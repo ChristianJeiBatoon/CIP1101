@@ -1,0 +1,109 @@
+body {
+margin: 0;
+padding: 0;
+}
+
+.container {
+max-width: 100%;
+margin: 0 auto;
+padding: 20px;
+}
+
+.container {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.right-side {
+position: relative; 
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 30%;
+margin-right: 50px;
+}
+
+.image img {
+border-radius: 50%;
+}
+
+.content {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 70%;
+}
+
+.contact {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+margin-bottom: 50px;
+}
+
+.details {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 30%;
+}
+
+.topic {
+font-size: 20px;
+font-weight: bold;
+margin-top: 10px;
+}
+
+.text-one {
+font-size: 16px;
+margin-top: 5px;
+}
+
+.text-two {
+font-size: 16px;
+margin-top: 5px;
+margin-bottom: 10px;
+}
+
+.topic-text {
+font-size: 24px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+.input-box {
+width: 100%;
+margin-bottom: 20px;
+}
+
+.message-box {
+height: 100px;
+}
+
+.button {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+input[type="button"] {
+padding: 10px 20px;
+background-color: #4CAF50;
+color: #fff;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+cursor: pointer;
+}
+
+input[type="button"]:hover {
+background-color: #3e8e41;
+}
